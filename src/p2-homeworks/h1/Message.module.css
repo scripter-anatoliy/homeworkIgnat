@@ -19,7 +19,7 @@ background-color: greenyellow;
     background-color: darkgreen;
     width: 190px;
     padding: 10px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 0;
 }
 
 .messageTime {
