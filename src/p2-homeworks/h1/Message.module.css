@@ -1,0 +1,40 @@
+.message {
+background-color: greenyellow;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.message img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.content {
+    background-color: darkgreen;
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+}
+
+.messageTime {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    color: royalblue;
+}
+.text {
+    color: white;
+}
+span {
+    color: darkgray;
+    margin-top: 5px;
+}
+
+
