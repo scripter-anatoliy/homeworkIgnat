@@ -1,9 +1,9 @@
 .message {
 background-color: greenyellow;
     width: 300px;
-    height: 100px;
     margin: 0 auto;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
     padding: 10px;
 }
@@ -12,7 +12,6 @@ background-color: greenyellow;
     width: 70px;
     height: 70px;
     border-radius: 40px;
-    margin-top: 30px;
 }
 
 .content {
@@ -20,11 +19,13 @@ background-color: greenyellow;
     width: 190px;
     padding: 10px;
     border-radius: 10px 10px 10px 0;
+    position: relative;
 }
 
 .messageTime {
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .name {
     color: royalblue;
@@ -34,7 +35,17 @@ background-color: greenyellow;
 }
 span {
     color: darkgray;
-    margin-top: 5px;
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
+}
+
+.block {
+    border: 20px solid transparent;
+    border-bottom: 9px solid darkgreen;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
 }
 
 

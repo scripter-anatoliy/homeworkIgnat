@@ -13,11 +13,10 @@ function Message(props: messageDataType) {
         <div className={m.message}>
             <img src={props.avatar} alt="Красивая картинка"/>
             <div className={m.content}>
+                <div className={m.block}></div>
                 <div className={m.name}>{props.name}</div>
-                <div className={m.messageTime}>
-                    <div className={m.text}>{props.message}</div>
-                    <span>{props.time}</span>
-                </div>
+                <div className={m.text}>{props.message}</div>
+                <span className={m.messageTime} >{props.time}</span>
             </div>
         </div>
     );
