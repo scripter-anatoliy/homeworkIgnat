@@ -1,0 +1,51 @@
+.message {
+background-color: greenyellow;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.message img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.content {
+    background-color: darkgreen;
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    position: relative;
+}
+
+.messageTime {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.name {
+    color: royalblue;
+}
+.text {
+    color: white;
+}
+span {
+    color: darkgray;
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
+}
+
+.block {
+    border: 20px solid transparent;
+    border-bottom: 9px solid darkgreen;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+}
+
+

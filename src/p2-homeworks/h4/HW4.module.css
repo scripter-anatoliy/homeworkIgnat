@@ -1,0 +1,9 @@
+.blue {
+    border-bottom: 5px solid #00ff19;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

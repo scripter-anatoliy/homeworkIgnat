@@ -1,0 +1,41 @@
+.main {
+    margin: 0 auto;
+    text-align: center;
+}
+.someClass {
+    border: 3px solid green;
+}
+
+.error {
+    border: 3px solid red;
+}
+
+.span {
+    color: green;
+    position: inherit;
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: cursive;
+}
+
+.errorText {
+    color: red;
+    position: inherit;
+    font-size: 18px;
+}
+.button {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px #5fbc5f;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px #5fbc5f;
+    border-radius: 10px;
+}

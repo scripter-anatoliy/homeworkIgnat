@@ -1,0 +1,26 @@
+.input {
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.superInput {
+    border: 2px solid #53e353;
+    border-bottom: 5px solid #55b555;
+    background: rgba(23, 243, 23, 0.3);
+}
+
+.errorInput {
+    border: 2px solid #c14e4e;
+    border-bottom: 5px solid #e25656;
+    background: rgba(159, 77, 77, 0.3);
+}
+
+
+.error {
+    position: inherit;
+    top: 30px;
+    left: 46%;
+    font-size: 20px;
+    color: red;
+}
+
