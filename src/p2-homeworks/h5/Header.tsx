@@ -16,7 +16,6 @@ function Header() {
         }
     }
 
-
     return (
         <div>
             <button onClick={openMenu}>Меню</button>
