@@ -1,4 +1,4 @@
-import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from "react";
+import React, {DetailedHTMLProps, KeyboardEvent, InputHTMLAttributes, HTMLAttributes, useState} from "react";
 import SuperInputText from "../../../h4/common/c1-SuperInputText/SuperInputText";
 
 // тип пропсов обычного инпута
@@ -31,7 +31,9 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     const {children, onDoubleClick, className, ...restSpanProps} = spanProps || {};
 
     const onEnterCallback = () => {
-        // setEditMode(); // выключить editMode при нажатии Enter
+        // if (e.key === "Enter") {
+        //     setEditMode(true)
+        // }// setEditMode(); // выключить editMode при нажатии Enter
 
         onEnter && onEnter();
     };

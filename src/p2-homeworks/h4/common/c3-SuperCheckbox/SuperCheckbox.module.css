@@ -1,7 +1,12 @@
+.label {
+    display: flex;
+    align-items: center;
+}
+
 .checkbox {
 
 }
 
 .spanClassName {
-
+    position: relative;
 }
